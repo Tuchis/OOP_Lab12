@@ -4,19 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33d6d529-6cd7-4a0b-a6ed-c2abfccf2736" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/decorator/Main.java" afterDir="false" />
+    <list default="true" id="33d6d529-6cd7-4a0b-a6ed-c2abfccf2736" name="Changes" comment="Lab12">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/ATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,15 +41,34 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="chainofresponsibility" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ATM">
+    <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainofresponsibility.ATM" />
+      <module name="Lab12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chainofresponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.decorator.Main" />
       <module name="Lab12" />
@@ -60,6 +84,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ATM" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -72,8 +97,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669889527574</updated>
-      <workItem from="1669889528839" duration="2415000" />
+      <workItem from="1669889528839" duration="3760000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab12">
+      <created>1669892256974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669892256974</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +122,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab12" />
   </component>
 </project>
